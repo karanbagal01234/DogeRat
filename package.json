@@ -1,0 +1,29 @@
+{
+  "name": "dogerat",
+  "version": "1.0.0",
+  "description": "<h3>Advanced and powerful Android device controlling tool with a wide range of features and capabilities</h3>   <h4>This software is exclusively designed for educational purposes ⚠️</h4>   <p>     <img src=\"images/logo.PNG\" alt=\"logo\" style=\"max-width: auto; height: auto;\" />   </p>   <p>     <i>A multifunctional Telegram-based Android RAT without port forwarding</i>   </p> </div>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivaya-dav/DogeRat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivaya-dav/DogeRat/issues"
+  },
+  "homepage": "https://github.com/shivaya-dav/DogeRat#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "socket.io": "^4.8.1",
+    "uuid": "^13.0.0"
+  }
+}
